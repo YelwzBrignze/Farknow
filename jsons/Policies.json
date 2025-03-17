@@ -8,32 +8,14 @@
             "Provides [1] [Policies]"
         ],
         "policies": [
-            {
-                "name": "State Property",
+		{
+                "name": "Fortified Borders",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "[+1 Happiness] from every [Castle]","[+1 Happiness] from every [Arsenal]","[+1 Happiness] from every [Military Base]","Provides [1] [Policies]"
                 ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Nationhood",
-                "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free",
-                    "[+2 Culture] from every [National Epic]",
-                    "[+2 Culture] from every [National College]",
-                    "[+2 Culture] from every [Circus Maximus]",
-                    "[+2 Culture] from every [Heroic Epic]",
-                    "[+2 Culture] from every [East India Company]",
-                    "[+2 Culture] from every [Grand Temple]",
-                    "[+2 Culture] from every [Ironworks]",
-                    "[+2 Culture] from every [Oxford University]",
-                    "[+2 Culture] from every [Hermitage]",
-                    "[+2 Culture] from every [National Intelligence Agency]"
-                ],
-                "row": 1,
-                "column": 5
+                "requires": ["Nationalism"],
+                "row": 3,
+                "column": 7
             },
 		{
                 "name": "Socialism",
@@ -111,15 +93,22 @@
             "row": 1,
             "column": 1
         },
-	{
-            "name": "Democracy",
-            "uniques": [
-		"[+1 Food, +1 Production] from every specialist [in all cities]",
-		"Provides [1] [Policies]"
-            ],
-            "row": 1,
-            "column": 3
-        },
+            {
+                "name": "Universal Healthcare",
+                "uniques": [
+                    "[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
+                    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
+                    "[+3 Science] from every [Medical Lab]",
+                    "[+3 Science] from every [Hospital]",
+                    "[+5 Food] [in capital]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 12
+            },
     {
         "name": "Dictatorship of the Proletariat",
         "uniques": [
@@ -208,6 +197,225 @@
                 "name": "Ideology Complete",
                 "uniques": [
 			"[+44]% Strength for cities <when defending>","Provides [1] [Policies]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Freedom",
+        "era": "Ancient era",
+        "uniques": [
+            "Free Social Policy",
+            "Comment [Unlocks [Statue of Liberty]]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Order]>",
+            "Only available <after adopting [Ideology]>"
+        ],
+        "policies": [
+            {
+                "name": "Avant Garde",
+                "uniques": [
+                    "[+25]% Great Person generation [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Creative Expression",
+                "uniques": [
+                    "[+2 Culture] from every [Great Work]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Civil Society",
+                "uniques": [
+                    "[-50]% Food consumption by specialists [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Volunteer Army",
+                "uniques": [
+                    "[3] free [Foreign Legion] units appear",
+                    "[3] units cost no maintenance",
+                    "[Gunpowder] units gain the [Morale] promotion",
+                    "All newly-trained [Gunpowder] units [in all cities] receive the [Morale] promotion",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Covert Action",
+                "uniques": [
+                    "[+100]% spy effectiveness [City-States]",
+                    //Unique for rigging elections
+                    "Gain an extra spy",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Capitalism",
+                "uniques": [
+                    "[+1 Happiness] from every [Market]",
+                    "[+1 Happiness] from every [Bank]",
+                    "[+1 Happiness] from every [Stock Exchange]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Economic Union",
+                "uniques": [
+                    "[+25]% [Gold] [in all cities]",
+                    "Provides [1] [Trade Route]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 13
+            },
+            {
+                "name": "Urbanization",
+                "uniques": [
+                    "[+2 Production, +2 Science] from every [Windmill]",
+                    "[+2 Production, +2 Science] from every [Workshop]",
+                    "[+2 Production, +2 Science] from every [Factory]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Free Mind",
+                "uniques": [
+                    "[Great Artist] is earned [33]% faster",
+                    "[Great Writer] is earned [33]% faster",
+                    "[Great Musician] is earned [33]% faster",
+                    "[+20]% [Gold] <in cities with a [Zoo]>",
+                    "[+20]% [Gold] <in cities with a [Museum]>",
+                    "[+20]% [Gold] <in cities with a [Broadcast Tower]>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Universal Suffrage",
+                "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                    "[+50]% Golden Age length",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 6
+            },
+            {
+                "name": "New Deal",
+                "uniques": [
+                    "[+5 Science] from every [Academy]",
+                    "[+5 Production] from every [Manufactory]",
+                    "[+5 Production] from every [Dry Dock]",
+                    "[+5 Faith] from every [Holy site]",
+                    "[+5 Culture] from every [Landmark]",
+                    "[+5 Gold] from every [Customs house]",
+                    "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 8
+            },
+            {
+                "name": "Arsenal of Democracy",
+                "uniques": [
+                    "[+25]% Production when constructing [Air] units [in all cities]",
+                    "[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
+                    "[+25]% Strength for cities",
+                    "[Fighter] units gain the [Dogfighting I] promotion",
+                    "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 10
+            },
+            {
+                "name": "Democracy",
+                "uniques": [
+                    "[+1 Food, +1 Production] from every specialist [in all cities]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 12
+            },
+            {
+                "name": "Media Culture",
+                "uniques": [
+                    "[+20]% [Culture] <in cities with a [Broadcast Tower]>",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Treaty Organization",
+                "uniques": [
+                    "[+1 Production, +1 Gold] from every specialist [in all cities]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Space Procurements",
+                "uniques": [
+                    "May buy [Spaceship part] units with [Gold] [in all cities]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 7
+            },
+            {
+                "name": "Freedom Complete",
+                "uniques": [
                 ]
             }
         ]
