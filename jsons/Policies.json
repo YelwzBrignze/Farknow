@@ -101,17 +101,6 @@
             "column": 1
         },
     {
-{
-        "name": "Planned Economy",
-        "uniques": [
-            "[+100]% unhappiness from the number of cities",
-        "[-50]% Unhappiness from [Population] [in all cities]",
-		"Provides [1] [Policies]"
-        ],
-        "requires": ["Dictatorship of the Proletariat"],
-        "row": 2,
-        "column": 5
-    },
     {
         "name": "Scorched Earth",
         "uniques": [
@@ -569,6 +558,19 @@
                 "row": 2,
                 "column": 10
             },
+{
+        "name": "Centralism",
+        "uniques": [
+            "[+100]% unhappiness from the number of cities",
+        "[-50]% Unhappiness from [Population] [in all cities]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>","Provides [1] [Policies]"
+        ],
+        "requires": ["Dictatorship of the Proletariat"],
+        "row": 2,
+        "column": 5
+    },
             {
                 "name": "People's Army",
                 "uniques": [
@@ -576,13 +578,12 @@
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
                     "[+2 Science, +2 Culture] from every [Military Academy]",
                     "[+2 Science, +2 Culture] from every [Armory]",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
                 ],
-                "row": 2,
-                "column": 12
+                "row": 3,
+                "column": 3
             },
 		{
                 "name": "Socialism",
@@ -594,7 +595,7 @@
 			"Provides [1] [Policies]"
 		],
                 "row": 3,
-                "column": 3
+                "column": 5
             },
     {
         "name": "Dictatorship of the Proletariat",
@@ -604,7 +605,7 @@
                     "Only available <when above [1] [Level 2 Ideology]>","Provides [1] [Policies]"
         ],
         "row": 3,
-        "column": 5
+        "column": 7
     },
             {
                 "name": "Iron Curtain",
@@ -635,6 +636,223 @@
             },
             {
                 "name": "Order Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Autocracy",
+        "era": "Ancient era",
+        "uniques": [
+            "Free Social Policy",
+            "Comment [Unlocks [Prora]]",
+            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Freedom]>",
+            "Only available <after adopting [Ideology]>"
+        ],
+        "policies": [
+            {
+                "name": "Elite Forces",
+                "uniques": [
+                    "[+10]% Strength <for [Military] units>",
+                    "[+10] HP when healing <for [Military] units>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Mobilization",
+                "uniques": [
+                    "[Gold] cost of purchasing [All] units [-25]%",
+                    "[-25]% maintenance costs <for [All] units>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "United Front",
+                "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Futurism",
+                "uniques": [
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Industrial Espionage",
+                "uniques": [
+                    "[+100]% spy effectiveness [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Militarism",
+                "uniques": [
+                    "[+1 Happiness] from every [Barracks]",
+                    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Military Academy]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Fascism",
+                "uniques": [
+                    "[+12 Happiness]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 13
+            },
+            {
+                "name": "Lightning Warfare",
+                "uniques": [
+                    "[+1] Movement <for [Gunpowder] units>",
+                    "[+1] Movement <for [Armored] units>",
+                    "[+1] Movement <for [Great General] units>",
+                    "[+1] Movement <for [Worker] units>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Police State",
+                "uniques": [
+                    "[+2 Happiness] from every [Courthouse]",
+                    "[+2 Happiness] from every [Police Station]",
+                    "[+2 Happiness] from every [Constabulary]",
+                    "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+50]% Production when constructing [Police Station] buildings [in all cities]",
+                    "[+50]% Production when constructing [Constabulary] buildings [in all cities]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Nationalism",
+                "uniques": [
+                    "[+100]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 6
+            },
+            {
+                "name": "Third Alternative",
+                "uniques": [
+                    "Double quantity of [Horses] produced",
+                    "Double quantity of [Iron] produced",
+                    "Double quantity of [Coal] produced",
+                    "Double quantity of [Oil] produced",
+                    "Double quantity of [Aluminum] produced",
+                    "Double quantity of [Uranium] produced",
+                    "[+5 Science, +5 Food] [in capital]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 8
+            },
+            {
+                "name": "Total War",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 10
+            },
+            {
+                "name": "Iron Fist",
+                "uniques": [
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+50]% XP gained from combat <for [non-[Air]] units>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 12
+            },
+            {
+                "name": "Cult of Personality",
+                "uniques": [
+                    "[+20]% [Culture] [in all cities]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Gunboat Diplomacy",
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [25]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Clausewitz's Legacy",
+                "uniques": [
+                    "[+25]% Strength <for [All] units> <for [50] turns>",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 7
+            },
+            {
+                "name": "Autocracy Complete",
                 "uniques": [
                 ]
             }
