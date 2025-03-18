@@ -1,4 +1,4 @@
-[
+r[
 	    {
         "name": "Ideology",
         "era": "Modern era",
@@ -21,13 +21,11 @@
                 "name": "Democracy",
                 "uniques": [
                     "[+1 Food, +1 Production] from every specialist [in all cities]",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
-                "row": 2,
-                "column": 12
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "Communism",
@@ -37,8 +35,8 @@
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
                 ],
-                "row": 3,
-                "column": 3
+                "row": 1,
+                "column": 5
             },
 		{
             "name": "Radicalism",
@@ -46,8 +44,8 @@
 		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
 		"Provides [1] [Policies]"
             ],
-            "row": 1,
-            "column": 1
+            "row": 2,
+            "column": 2
         },
             {
                 "name": "Educated Elite",
@@ -58,7 +56,7 @@
 			"Provides [1] [Policies]"
                 ],
 		"row": 1,
-                "column": 3
+                "column": 1
             },
 		{
                 "name": "Liberalism",
@@ -68,9 +66,8 @@
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>"
                 ],
-                "requires": ["Their Finest Hour", "Universal Healthcare"],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Ideology Complete",
