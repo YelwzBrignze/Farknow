@@ -31,8 +31,7 @@
                 "name": "Communism",
                 "uniques": [
                     "Each city founded increases Science cost of Technologies [20]% less than normal",
-                    "Provides [-1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -42,7 +41,9 @@
             "name": "Radicalism",
             "uniques": [
 		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
-		"Provides [1] [Policies]"
+                    "Provides [1] [Level 2 Ideology]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>","Provides [1] [Policies]"
             ],
             "row": 2,
             "column": 2
