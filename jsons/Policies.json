@@ -81,19 +81,15 @@
                 "row": 2,
                 "column": 12
             },
-    {
-        "name": "Scorched Earth",
-        "uniques": [
-            "[-100]% maintenance costs <for [Mounted] units>",
-        "[-100]% maintenance costs <for [Armor] units>",
-        "[Mounted] units gain the [Volley] promotion",
-        "[Armor] units gain the [Volley] promotion",
-	    "Provides [1] [Policies]"
-        ],
-        "requires": ["Populism"],
-        "row": 3,
-        "column": 1
-    },
+		{
+            "name": "Radicalism",
+            "uniques": [
+		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
+		"Provides [1] [Policies]"
+            ],
+            "row": 1,
+            "column": 1
+        },
 	{
             "name": "Optimization Imperative",
             "uniques": [
@@ -798,24 +794,30 @@
                 "row": 2,
                 "column": 12
             },
-	{
-            "name": "Radicalism",
-            "uniques": [
-		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
-		"Provides [1] [Policies]"
-            ],
-            "row": 1,
-            "column": 1
-        },
+    {
+        "name": "Scorched Earth",
+        "uniques": [
+            "[-100]% maintenance costs <for [Mounted] units>",
+        "[-100]% maintenance costs <for [Armor] units>",
+        "[Mounted] units gain the [Volley] promotion",
+        "[Armor] units gain the [Volley] promotion",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+	    "Provides [1] [Policies]"
+        ],
+        "row": 3,
+        "column": 3
+    },
 	{
             "name": "Absolutism",
             "uniques": [
                 "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-                "Free [Worker] appears","Provides [1] [Policies]"
+                "Free [Worker] appears",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>","Provides [1] [Policies]"
             ],
-        "requires": ["Nazism"],
-            "row": 2,
-            "column": 1
+            "row": 3,
+            "column": 5
         },
             {
                 "name": "Cult of Personality",
@@ -826,7 +828,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 3,
-                "column": 3
+                "column": 7
             },
             {
                 "name": "Gunboat Diplomacy",
@@ -837,7 +839,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 3,
-                "column": 5
+                "column": 9
             },
             {
                 "name": "Clausewitz's Legacy",
@@ -848,7 +850,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 3,
-                "column": 7
+                "column": 11
             },
             {
                 "name": "Autocracy Complete",
