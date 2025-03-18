@@ -81,26 +81,6 @@
                 "row": 2,
                 "column": 12
             },
-	{
-            "name": "Radicalism",
-            "uniques": [
-		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
-		"Provides [1] [Policies]"
-            ],
-            "row": 1,
-            "column": 1
-        },
-	{
-            "name": "Populism",
-            "uniques": [
-                "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-                "Free [Worker] appears","Provides [1] [Policies]"
-            ],
-        "requires": ["Nazism"],
-            "row": 2,
-            "column": 1
-        },
-    {
     {
         "name": "Scorched Earth",
         "uniques": [
@@ -818,6 +798,25 @@
                 "row": 2,
                 "column": 12
             },
+	{
+            "name": "Radicalism",
+            "uniques": [
+		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
+		"Provides [1] [Policies]"
+            ],
+            "row": 1,
+            "column": 1
+        },
+	{
+            "name": "Absolutism",
+            "uniques": [
+                "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+                "Free [Worker] appears","Provides [1] [Policies]"
+            ],
+        "requires": ["Nazism"],
+            "row": 2,
+            "column": 1
+        },
             {
                 "name": "Cult of Personality",
                 "uniques": [
