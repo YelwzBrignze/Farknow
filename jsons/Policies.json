@@ -1,56 +1,4 @@
 [
-    {
-        "name": "World",
-        "era": "Modern era",
-        "uniques": [
-            "[+3 Culture] from every [Palace]", "Free Social Policy","Remove [Despotism] <hidden from users>",
-            "[-25]% Culture cost of natural border growth [in all cities]"
-        ],
-        "policies": [
-            {
-                "name": "Their Finest Hour",
-                "uniques": [
-                    "Each city founded increases culture cost of policies [44]% less than normal",
-                    "Empire enters golden age",
-                    "Provides [1] [Level 1 Ideology]",
-			"Provides [1] [Policies]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Educated Elite",
-                "uniques": [
-                    "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
-			"Allied City-States will occasionally gift Great People",
-                    "Provides [1] [Level 1 Ideology]",
-			"Provides [1] [Policies]"
-                ],
-		"row": 1,
-                "column": 3
-            },
-		{
-                "name": "Liberalism",
-                "uniques": [
-			"Gain a free [Amphitheater] [in all cities]","[+1] Movement <for [Melee] units>","[+1] Movement <for [Civilian] units>",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>"
-                ],
-                "requires": ["Their Finest Hour", "Universal Healthcare"],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "World Complete",
-                "uniques": [
-                    "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [8] cities for free",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
-                ]
-            }
-        ]
-    },
 	    {
         "name": "Ideology",
         "era": "Modern era",
@@ -81,6 +29,17 @@
                 "row": 2,
                 "column": 12
             },
+            {
+                "name": "Communism",
+                "uniques": [
+                    "Each city founded increases Science cost of Technologies [20]% less than normal",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 3
+            },
 		{
             "name": "Radicalism",
             "uniques": [
@@ -90,30 +49,29 @@
             "row": 1,
             "column": 1
         },
-	{
-            "name": "Optimization Imperative",
-            "uniques": [
-		"[+5 Science] [in all cities]",
-		"[+50]% Yield from every [Land Trade Route (Food)]",
-        "[+50]% Yield from every [Land Trade Route (Production)]",
-		"Provides [1] [Policies]",
-        "[+50]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
-        "[+50]% Yield from every [Sea Trade Route (Production)] <hidden from users>",
-            ],
-            "requires": ["Distributed Sovereignty"],
-            "row": 3,
-            "column": 3
-        },
-  {
-            "name": "Mysticism",
-            "uniques": [
-		    "May choose [1] additional [Pantheon] beliefs when [founding] a religion","Gain a free [Stadium] [in holy cities]",
-                    "Gain a free [Pantheon] belief <after founding a religion>","Provides [1] [Policies]"
-            ],
-        "requires": ["Planned Economy"],
-            "row": 3,
-            "column": 5
-        },
+            {
+                "name": "Educated Elite",
+                "uniques": [
+                    "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+			"Allied City-States will occasionally gift Great People",
+                    "Provides [1] [Level 1 Ideology]",
+			"Provides [1] [Policies]"
+                ],
+		"row": 1,
+                "column": 3
+            },
+		{
+                "name": "Liberalism",
+                "uniques": [
+			"Gain a free [Amphitheater] [in all cities]","[+1] Movement <for [Melee] units>","[+1] Movement <for [Civilian] units>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>"
+                ],
+                "requires": ["Their Finest Hour", "Universal Healthcare"],
+                "row": 2,
+                "column": 3
+            },
             {
                 "name": "Ideology Complete",
                 "uniques": [
