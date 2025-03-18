@@ -136,7 +136,6 @@
                 "name": "Covert Action",
                 "uniques": [
                     "[+100]% spy effectiveness [City-States]",
-                    //Unique for rigging elections
                     "Gain an extra spy",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -378,7 +377,6 @@
                 "name": "Double Agents",
                 "uniques": [
                     "[-100]% enemy spy effectiveness [in all cities connected to capital]",
-                    //Unique for increasing chance of killing spy
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -558,7 +556,6 @@
                 "uniques": [
                     "Free [Great Scientist] appears",
                     "Free [Great Engineer] appears",
-                    //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
